@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-06 11:52:05.305441",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "description",
+  "price",
+  "quantity",
+  "total"
+ ],
+ "fields": [
+  {
+   "columns": 1,
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "columns": 2,
+   "fieldname": "price",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Price"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-06 21:20:51.362107",
+ "modified_by": "Administrator",
+ "module": "webs",
+ "name": "Service Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

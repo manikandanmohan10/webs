@@ -1,0 +1,43 @@
+{
+ "__unsaved": 1,
+ "creation": "2024-06-06 15:29:57.137241",
+ "docstatus": 0,
+ "doctype": "Web Template",
+ "fields": [
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name",
+   "reqd": 0
+  },
+  {
+   "fieldname": "requested_date",
+   "fieldtype": "Data",
+   "label": "Requested Date",
+   "reqd": 0
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nApprove\nReject\nNegotiate",
+   "reqd": 0
+  },
+  {
+   "fieldname": "service_details",
+   "fieldtype": "Link",
+   "label": "Service Details",
+   "options": "Service Details",
+   "reqd": 0
+  }
+ ],
+ "idx": 0,
+ "modified": "2024-06-06 16:32:50.941322",
+ "modified_by": "Administrator",
+ "module": "webs",
+ "name": "Service request document view",
+ "owner": "Administrator",
+ "standard": 1,
+ "template": "",
+ "type": "Section"
+}
