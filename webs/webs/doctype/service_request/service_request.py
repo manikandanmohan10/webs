@@ -51,6 +51,3 @@ class ServiceRequest(Document):
 	def on_update(self):
 		self.route = '/sr/'+ self.name
 		frappe.db.set_value('Service Request', self.name, 'route', '/sr/'+ self.name)
-
-
-

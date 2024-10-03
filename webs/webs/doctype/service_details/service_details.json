@@ -9,7 +9,8 @@
   "description",
   "price",
   "quantity",
-  "total"
+  "total",
+  "test_button"
  ],
  "fields": [
   {
@@ -37,12 +38,17 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Total"
+  },
+  {
+   "fieldname": "test_button",
+   "fieldtype": "Button",
+   "label": "Test Button"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-06-06 21:20:51.362107",
+ "modified": "2024-06-25 16:44:59.106976",
  "modified_by": "Administrator",
  "module": "webs",
  "name": "Service Details",

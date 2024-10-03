@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../apps/webs/webs/public/js/query_report.js"],
+  "sourcesContent": ["frappe.provide(\"frappe.widget.utils\");\nfrappe.provide(\"frappe.views\");\nfrappe.provide(\"frappe.query_reports\");\n\nfrappe.standard_pages[\"query-report\"] = function () {\n\tvar wrapper = frappe.container.add_page(\"query-report\");\n\n\tfrappe.ui.make_app_page({\n\t\tparent: wrapper,\n\t\ttitle: __(\"Query Report\"),\n\t\tsingle_column: true,\n\t});\n\n\tfrappe.query_report = new frappe.views.QueryReport({\n\t\tparent: wrapper,\n\t});\n\n\t$(wrapper).bind(\"show\", function () {\n\t\tfrappe.query_report.show();\n\t});\n};\n\nfrappe.require('/assets/frappe/js/frappe/views/reports/query_report.js', () => {\n    console.log(\"Inside the require function\")\n})\n"],
+  "mappings": ";;AAAA,SAAO,QAAQ,qBAAqB;AACpC,SAAO,QAAQ,cAAc;AAC7B,SAAO,QAAQ,sBAAsB;AAErC,SAAO,eAAe,kBAAkB,WAAY;AACnD,QAAI,UAAU,OAAO,UAAU,SAAS,cAAc;AAEtD,WAAO,GAAG,cAAc;AAAA,MACvB,QAAQ;AAAA,MACR,OAAO,GAAG,cAAc;AAAA,MACxB,eAAe;AAAA,IAChB,CAAC;AAED,WAAO,eAAe,IAAI,OAAO,MAAM,YAAY;AAAA,MAClD,QAAQ;AAAA,IACT,CAAC;AAED,MAAE,OAAO,EAAE,KAAK,QAAQ,WAAY;AACnC,aAAO,aAAa,KAAK;AAAA,IAC1B,CAAC;AAAA,EACF;AAEA,SAAO,QAAQ,0DAA0D,MAAM;AAC3E,YAAQ,IAAI,6BAA6B;AAAA,EAC7C,CAAC;",
+  "names": []
+}

@@ -1,0 +1,29 @@
+<div class="main-container">
+    
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">SuaveChat</div>
+        <div class="chat-types">
+            <button type="button" id="newChatBtn-gemini-ai-sql" class="btn btn-secondary btn-sm newchat-button">Gemini AI (SQL Generator)</button>
+            <button type="button" id="newChatBtn-gemini-ai-casual" class="btn btn-secondary btn-sm newchat-button">Gemini AI (Casual Conversation)</button>
+        </div>
+    </div>
+    
+
+    <div class="chat-container">
+        <div class="chat-title">
+            <span class="option-icon"><img src="/files/icons8-option-96.png" alt="" width="25px" height="22px"></span>
+            SQL Query Generator
+        </div>
+        <div class="chat-body" id="chatBody">
+            <!-- Chat messages will appear here -->
+            
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="userInput" class="chat-input" placeholder="Type your message...">
+            <button id="sendBtn" class="send-btn">Send</button>
+            <div class="spinner-border" style="display: none; margin-top: 4px; background-color: #46535f00;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+    </div>
+</div>

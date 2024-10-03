@@ -1,0 +1,160 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-27 15:34:07.806823",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_jok9",
+  "html",
+  "html_editor",
+  "amended_from",
+  "section_break_gkao",
+  "user_details",
+  "time_section",
+  "time",
+  "datetime",
+  "attachh_section",
+  "barcode",
+  "icon",
+  "attach_image",
+  "attach",
+  "rating_section",
+  "ratingg",
+  "phone",
+  "percent",
+  "table_multiselect_udvz"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_jok9",
+   "fieldtype": "Section Break",
+   "label": "HTML"
+  },
+  {
+   "fieldname": "html_editor",
+   "fieldtype": "HTML Editor",
+   "label": "HTML Editor"
+  },
+  {
+   "default": "Hey there",
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "HTML",
+   "no_copy": 1,
+   "options": "<p style=\"color: red;\"> Hey there </p>",
+   "search_index": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Custom Doctype",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "time_section",
+   "fieldtype": "Section Break",
+   "label": "Time"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "datetime",
+   "fieldtype": "Datetime",
+   "label": "Datetime"
+  },
+  {
+   "fieldname": "attachh_section",
+   "fieldtype": "Section Break",
+   "label": "Attachh"
+  },
+  {
+   "fieldname": "barcode",
+   "fieldtype": "Barcode",
+   "label": "Barcode"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Icon",
+   "label": "Icon"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "label": "Attach Image"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "Attach"
+  },
+  {
+   "fieldname": "rating_section",
+   "fieldtype": "Section Break",
+   "label": "Additional Fields"
+  },
+  {
+   "fieldname": "ratingg",
+   "fieldtype": "Rating",
+   "label": "Ratingg"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "percent",
+   "fieldtype": "Percent",
+   "label": "Percent"
+  },
+  {
+   "fieldname": "table_multiselect_udvz",
+   "fieldtype": "Table MultiSelect",
+   "options": "Custom Child Doctype"
+  },
+  {
+   "fieldname": "section_break_gkao",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "user_details",
+   "fieldtype": "Table",
+   "label": "user details",
+   "options": "Custom Doctype Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-07-02 11:48:04.791648",
+ "modified_by": "Administrator",
+ "module": "webs",
+ "name": "Custom Doctype",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

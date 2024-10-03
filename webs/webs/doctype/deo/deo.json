@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-25 16:45:47.191766",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_guew",
+  "textt",
+  "text_editor_oilh",
+  "long_test",
+  "small_text_cbam"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_guew",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "textt",
+   "fieldtype": "Text",
+   "label": "Textt"
+  },
+  {
+   "fieldname": "text_editor_oilh",
+   "fieldtype": "Text Editor"
+  },
+  {
+   "fieldname": "long_test",
+   "fieldtype": "Long Text",
+   "label": "Long test"
+  },
+  {
+   "fieldname": "small_text_cbam",
+   "fieldtype": "Small Text"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-06-25 16:46:52.904866",
+ "modified_by": "Administrator",
+ "module": "webs",
+ "name": "Deo",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

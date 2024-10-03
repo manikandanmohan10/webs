@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../apps/webs/webs/public/js/query_report.js"],
+  "sourcesContent": ["frappe.ui.form.on('Report', {\n    onload_post_render: function() {\n        if (typeof frappe.views.QueryReport !== 'undefined') {\n            // Now QueryReport is available, and you can extend or modify it\n            frappe.views.QueryReport = frappe.views.QueryReport.extend({\n                // Custom logic here\n                refresh: function() {\n                    console.log('Custom Refresh Logic');\n                    this._super();\n                }\n            });\n        } else {\n            console.error(\"QueryReport is still undefined.\");\n        }\n    }\n});\n"],
+  "mappings": ";;AAAA,SAAO,GAAG,KAAK,GAAG,UAAU;AAAA,IACxB,oBAAoB,WAAW;AAC3B,UAAI,OAAO,OAAO,MAAM,gBAAgB,aAAa;AAEjD,eAAO,MAAM,cAAc,OAAO,MAAM,YAAY,OAAO;AAAA,UAEvD,SAAS,WAAW;AAChB,oBAAQ,IAAI,sBAAsB;AAClC,iBAAK,OAAO;AAAA,UAChB;AAAA,QACJ,CAAC;AAAA,MACL,OAAO;AACH,gBAAQ,MAAM,iCAAiC;AAAA,MACnD;AAAA,IACJ;AAAA,EACJ,CAAC;",
+  "names": []
+}
